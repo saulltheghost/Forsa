@@ -1209,6 +1209,9 @@ p {
   align-items: center;
   flex-wrap: wrap;
 }
+.quest .container .text h1 {
+  text-align: center;
+}
 .quest .container .text p {
   padding: 0;
   width: 90%;
