@@ -963,7 +963,7 @@ p {
 }
 /* end footer */
 /* start phone design */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   /* start phone design */
 /* start header */
 .header .container {
