@@ -51,24 +51,6 @@ p {
   --main-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 /* end variabls  */
-/* small */
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-/* medium */
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-/* large */
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
 /* start header */
 .header {
   position: relative;
@@ -963,7 +945,7 @@ p {
 }
 /* end footer */
 /* start phone design */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   /* start phone design */
 /* start header */
 .header .container {
