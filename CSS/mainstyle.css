@@ -962,3 +962,719 @@ p {
   display: none;
 }
 /* end footer */
+/* start phone design */
+@media (min-width: 768px) {
+  /* start phone design */
+/* start header */
+.header .container {
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+.header .container .nav {
+  position: relative;
+  width: 100%;
+  margin: 20px 0 0 0;
+  top: 0;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .container .nav .logo {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  grid-column-start: 1;
+  grid-column-end: 5;
+
+}
+.header .container .nav .logo img {
+  width: 200px;
+}
+.header .container .nav .ul {
+  display: none;
+}
+.header .container .nav .ul-1 li {
+  width: 100%;
+}
+.header .container .nav .ul-1 a {
+  position: static;
+  display: grid;
+  place-items: center;
+}
+.header .container .nav .ul-1 {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  place-items: center;
+  width: 100%;
+
+}
+.header .container .nav .ul .sign-in {
+  display: none;
+}
+.text {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  top: 300px;
+  width: 100%;
+  right: 0;
+  max-height: 600px;
+}
+.header .container .text h1 {
+  font-size: 60px;
+  position: relative;
+  right: 0;
+  text-align: center;
+  width: 80%;
+  margin: 0;
+  color: var(--main-color);
+  text-shadow: var(--main-text-shadow);
+  margin-right: 0;
+}
+.header .container .text h2 {
+  font-size: 30px;
+  color: var(--second-color);
+  text-shadow: var(--main-text-shadow);
+  margin: 20px 0 0px 0;
+}
+.header .container .text p {
+  display: none;
+  width: 90%;
+  text-align: center;
+  font-size: 23px;
+  color: var(--second-color);
+  text-shadow: var(--main-text-shadow);
+}
+.header .container .text .sign-in {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: -150px;
+}
+.header .container .text .sign-in a {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  right: calc(100% - 200px);
+  transform: translateX(50%);
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  background-color: #eec037;
+  border-radius: 10px;
+  transition: 0.5s;
+  box-shadow: 5px 10px var(--second-color);
+  color: var(--main-color);
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.header .container .sign-in:hover a {
+  box-shadow: var(--main-box-shadow);
+  color: var(--second-color);
+}
+.header .container .sign-in a:hover {
+  color: var(--second-color);
+}
+/* end header */
+/* start landing */
+.contant {
+  display: flex;
+  position: relative;
+  top: 100px;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: visible;
+  width: 100%;
+  height: 700px;
+  background-color: #f5fffe;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.contant .container {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: inherit;
+}
+.contant .container .clip-images {
+  display: none;
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  top: 160px;
+  left: -5%;
+  overflow: visible;
+  border-radius: 60px;
+  background-color: var(--thrd-color);
+  box-shadow: var(--main-box-shadow);
+}
+
+/* start text style */
+.contant .container .text {
+  position: absolute;
+  text-align: center;
+  right: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 2;
+}
+.contant .container .text h1 {
+  font-size: 40px;
+  color: var(--main-color);
+  text-shadow: var(--main-text-shadow);
+  margin: 0 0 30px 0;
+}
+.contant .container .text p {
+  color: var(--frth-color);
+  width: 90%;
+  font-size: 20px;
+  text-shadow: var(--main-text-shadow);
+  word-spacing: 5px;
+  font-weight: 600;
+  text-align: center;
+}
+.contant .container .text #nd {
+  margin: 30px 0 0 0;
+}
+.contant .container .squar-1 {
+  position: absolute;
+  right: 60%;
+  top: 100px;
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+  background: var(--main-color);
+  border-radius: 20%;
+  box-shadow: var(--main-box-shadow);
+  rotate: 45deg;
+  opacity: 0.8;
+}
+.contant .container .squar-2 {
+  position: absolute;
+  right: -20px;
+  top: 295px;
+  z-index: 0;
+  width: 250px;
+  height: 250px;
+  background: var(--thrd-color);
+  border-radius: 20%;
+  box-shadow: var(--main-box-shadow);
+  rotate: 45deg;
+  opacity: 0.8;
+}
+/* end text style */
+/* end landing  */
+/* statrt quest style */
+.quest {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  min-height: 900px;
+  z-index: 3;
+  overflow: hidden;
+}
+.quest .container {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  height: auto;
+}
+.quest .container .text {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.quest .container .text p {
+  padding: 0;
+  width: 90%;
+  text-align: center;
+}
+.quest .container .pictures-section {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  width: 100%;
+  min-height: 500px;
+}
+.quest .container .pictures-section .pic-1 {
+  position: relative;
+  display: none;
+  width: 300px;
+  height: 387px;
+  border-radius: 40px;
+  background-color: var(--second-color);
+  box-shadow: var(--main-box-shadow);
+  z-index: 0;
+}
+.quest .container .pictures-section .pic-2 {
+  position: relative;
+  top: 70%;
+  right: 30%;
+  width: 260px;
+  height: 300px;
+  border-radius: 40px;
+  background-color: var(--frth-color);
+  box-shadow: var(--main-box-shadow);
+  z-index: 2;
+}
+.quest .container .pictures-section .pic-2 p {
+  position: absolute;
+  font-size: 18px;
+  bottom: 5px;
+  left: 10px;
+  color: var(--second-color);
+}
+.quest .container .pictures-section .pic-2 .stars {
+  position: absolute;
+  bottom: 12px;
+  right: 15px;
+  color: var(--second-color);
+  font-size: 13px;
+}
+.quest .container .pictures-section .pic-2 .stars .checked {
+  color: var(--main-color);
+}
+.quest .container .pictures-section .pic-2 img {
+  width: 260px;
+  height: 300px;
+}
+.quest .container .pictures-section .pic-3 {
+  position: relative;
+  top: 35%;
+  right: 10px;
+  width: 280px;
+  height: 300px;
+  border-radius: 40px;
+  background-color: var(--second-color);
+  overflow: hidden;
+  box-shadow: var(--main-box-shadow);
+  z-index: 1;
+}
+.quest .container .pictures-section .pic-3 p {
+  position: absolute;
+  font-size: 19px;
+  bottom: 5px;
+  left: 20px;
+  color: var(--second-color);
+}
+.quest .container .pictures-section .pic-3 .stars {
+  position: absolute;
+  bottom: 12px;
+  right: 20px;
+  color: var(--second-color);
+  font-size: 14px;
+}
+.quest .container .pictures-section .pic-3 .stars .checked {
+  color: var(--main-color);
+}
+.quest .container .pictures-section .pic-3 img {
+  width: 280px;
+}
+.quest .container .pictures-section .square {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  width: 300px;
+  height: 300px;
+  background-color: var(--thrd-color);
+  border-radius: 40px;
+  rotate: 45deg;
+}
+.quest .container .pictures-section .square-2 {
+  position: absolute;
+  right: 58%;
+  top: 60%;
+  width: 200px;
+  height: 200px;
+  background-color: var(--second-color);
+  border-radius: 40px;
+  rotate: 45deg;
+}
+/* end quest style */
+/* start categories part */
+.categories {
+  position: relative;
+  display: block;
+  top: 0px;
+  width: 100%;
+  min-height: 1850px;
+  overflow: visible;
+}
+.categories .container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.categories .container .text {
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0 20px 0;
+  z-index: 10;
+}
+.categories .container .text h1 {
+  margin: 5px 0;
+}
+.categories .container .text p {
+  width: 90%;
+}
+.categories .container .cate {
+  position: absolute;
+  top: 250px;
+  width: 90%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, auto);
+  row-gap: 20px;
+  text-align: center;
+}
+.categories .container .squar-1 {
+  display: none;
+}
+/* end categories part */
+/* start offres part */
+.offres {
+  position: relative;
+  top: 0;
+}
+.offres .container {
+  position: relative;
+  width: 90%;
+  display: grid;
+  justify-content: center;
+  grid-gap: 25px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.offres .text {
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px 0 20px 0;
+  z-index: 10;
+}
+.offres .text p {
+  width: 90%;
+}
+.offres .container .offre {
+  position: relative;
+  top: 250px;
+  width: 350px;
+  height: 300px;
+  box-shadow: var(--main-box-shadow);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.offres .container .offre i {
+  position: absolute;
+  padding: 10px;
+  border-radius: 5px;
+  right: 30px;
+  top: 30px;
+  font-size: 40px;
+  color: var(--main-color);
+  text-shadow: var(--main-text-shadow);
+  transition: 0.3s;
+}
+.offres .container .offre h3 {
+  position: absolute;
+  top: 35%;
+  right: 30px;
+  color: var(--main-color);
+  font-size: 20px;
+}
+.offres .container .offre p {
+  position: absolute;
+  bottom: 15%;
+  right: 30px;
+  font-size: 16px;
+}
+.offres .container .offre .arrow {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: var(--thrd-color);
+  top: 80%;
+  right: 80%;
+  box-shadow: 2px 4px var(--main-color);
+  color: var(--second-color);
+  font-size: 25px;
+  transition: 0.3s;
+}
+.offres .container .offre .arrow:hover {
+  box-shadow: var(--main-box-shadow);
+  color: var(--main-color);
+}
+/* end offres section */
+/* start contact */
+/* strat user */
+.user {
+  display: block;
+  position: relative;
+  top: 400px;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+}
+.user .container {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  background-color: var(--second-color);
+  box-shadow: var(--main-box-shadow);
+  box-shadow: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.user .container .text-part {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  right: 10px;
+  top: -40px;
+  width: 90%;
+  margin: 0;
+  height: 300px;
+  text-align: center;
+}
+.user .container .text-part h1 {
+  margin-top: 40px;
+  font-size: 33px;
+  text-align: center;
+}
+.user .container .text-part p {
+  color: var(--frth-color);
+  text-align: center;
+  font-size: 20px;
+}
+.user .container .infos-part {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  border-radius: 50px;
+  box-shadow: var(--main-box-shadow);
+  background-color: var(--thrd-color);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+/* end user */
+.contact {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  top: 400px;
+  text-align: center;
+  overflow: hidden;
+}
+.contact .container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.contact .container .contact-us {
+  position: absolute;
+  width: 80%;
+  height: 80px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.contact .container .info {
+  width: 90%;
+  position: absolute;
+  height: 300px;
+  top: 300px;
+}
+.contact .container .info .square-01 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  right: 20px;
+  top: -40px;
+  background-color: var(--thrd-color);
+  border-radius: 18%;
+  rotate: 45deg;
+  z-index: 1;
+}
+.contact .container .info .square-02 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  right: -150px;
+  top: 50px;
+  background-color: var(--frth-color);
+  border-radius: 18%;
+  rotate: 45deg;
+  z-index: 0;
+}
+.contact .container .info h2 {
+  position: absolute;
+  top: 10px;
+  font-size: 25px;
+  color: var(--frth-color);
+  text-shadow: var(--main-text-shadow);
+  z-index: 2;
+}
+.contact .container .info p {
+  margin: 0px 0px 0 0;
+  color: var(--second-color);
+  font-weight: 400;
+  z-index: 2;
+  font-size: 20px;
+}
+.contact .container .info p i {
+  padding: 0 0 0 0px;
+  font-size: 25px;
+}
+/* end contact */
+/* start footer */
+.footer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 150px;
+  background-color: var(--main-color);
+  top: 550px;
+  box-shadow: var(--main-box-shadow);
+}
+.footer .container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer .container .ul-list {
+  position: absolute;
+  width: 80%;
+  height: 20px;
+  right: 5px;
+  top: 40%;
+  margin: 0 20px 0 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  display: none;
+}
+.footer .container .ul-list-1 {
+  position: absolute;
+  width: 80%;
+  height: 20px;
+  right: 5px;
+  top: 40%;
+  margin: 0 20px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer .container .ul-list-1 li a {
+  font-size: 16px;
+  color: var(--second-color);
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;
+  transition: 0.3s;
+  z-index: 2;
+  font-weight: 300;
+  text-shadow: var(--main-text-shadow);
+}
+.footer .container .ul-list-1 li a:hover {
+  color: var(--thrd-color);
+}
+.footer .container .footer-logo {
+  position: absolute;
+  width: 150px;
+  top: 10px;
+}
+.footer .container .footer-logo img {
+  width: 150px;
+}
+.footer .container .left-dv {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+.footer .container .left-dv img {
+  width: 100px;
+  margin: 0;
+  padding: 0;
+}
+.footer .container .left-dv p {
+  font-size: 16px;
+  color: var(--second-color);
+  font-weight: 300;
+  width: 100%;
+}
+
+/* end footer */
+
+/* end phone design */
+
+}
+/* end phone design */
